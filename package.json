@@ -28,5 +28,10 @@
     "postcss-csso": "^3.0.0",
     "rollup": "^1.2.2",
     "rollup-plugin-babel": "^4.3.2"
+     "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
   }
 }
