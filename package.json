@@ -1,6 +1,11 @@
 {
   "name": "general-frontend-boilerplate",
   "description": "Project template based on Grunt task runner",
+  "browsers": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+    ],
   "devDependencies": {
     "@babel/core": "^7.3.3",
     "@babel/preset-env": "^7.3.1",
